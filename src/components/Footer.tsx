@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#home" className="text-lg font-bold text-foreground">
-              Eric.Dev
+              Ifeoluwa Adebayo 
             </a>
             <p className="text-sm text-muted-foreground mt-2 max-w-md">
               Specialized in backend engineering solutions. Let's collaborate on your next project.
