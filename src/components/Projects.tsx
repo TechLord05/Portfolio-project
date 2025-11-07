@@ -42,9 +42,9 @@ const Projects = () => {
       title: "B2B E-commerce Platform",
       description: "A scalable B2B e-commerce platform with real-time inventory management and order processing.",
       tags: ["Django", "PostgreSQL", "Docker", "Kubernetes", "Redis", "RabbitMQ", "Celery"],
-      image: "b2b3.png",
+      image: "uportal.jpg",
       // githubUrl: "https://github.com",
-      liveUrl: "https://ubuntuportal.vercel.app/",
+      // liveUrl: "https://ubuntuportal.vercel.app/",
       category: "backend"
     },
     {
@@ -60,7 +60,7 @@ const Projects = () => {
       title: "UbuntuPortal Logistics",
       description: "A secure RESTful API for seamless shipment management, real-time tracking, and optimized supply chain operations.",
       tags: ["Python", "Django", "OAuth 2.0", "postgreSQL", "Celery", "RabbitMQ"],
-      image: "ubuntuport1.png",
+      image: "log.jpg",
       // githubUrl: "https://github.com",
       liveUrl: "https://ubuntu-logistics.vercel.app/",
       category: "backend"
