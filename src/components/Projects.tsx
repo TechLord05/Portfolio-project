@@ -61,14 +61,23 @@ const Projects = () => {
       category: 'backend',
     },
     {
-      title: 'TimelyCare',
+      title: 'Care Time',
       description:
         'A healthcare solution streamlining specialist consultations by bypassing traditional hospital queues. Patients connect directly with verified specialists via a structured digital workflow.',
       tags: ['Python', 'Django', 'PostgreSQL'],
-      image:
-        'https://images.unsplash.com/photo-1486718448742-163732cd1544?w=600&auto=format&fit=crop',
+      image: 'Tcare.png',
       githubUrl: 'https://github.com/hunterxcobby/TimelyCare',
-      //liveUrl: '#',
+      liveUrl: '#',
+      category: 'backend',
+    },
+    {
+      title: 'Dockerized Blog API',
+      description:
+        'A RESTful API built with Django REST Framework that allows users to create, read, update, and delete blog posts and comments. Features include user authentication, follower/following system, and efficient data handling for scalable blogging platforms. Perfect for developers looking to integrate blogging functionality into web or mobile applications.',
+      tags: ['Python', 'Django', 'DRF', 'PostgreSQL', 'Docker', 'JWT', 'redis', 'celery'],
+      image: 'blog.png',
+      githubUrl: 'https://github.com/TechLord05/Blog_API',
+      liveUrl: '#',
       category: 'backend',
     },
     {
@@ -79,6 +88,7 @@ const Projects = () => {
       image:
         'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
       githubUrl: 'https://github.com/TechLord05/AirBnB_clone_v4',
+      liveUrl: '#',
       category: 'backend',
     },
   ];
