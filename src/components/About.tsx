@@ -62,18 +62,18 @@ const About = () => {
             <div className="space-y-4 text-muted-foreground">
               <p>
                 I'm a backend engineer with a strong focus on building scalable, efficient systems using Django,
-                PostgreSQL, and cloud technologies. My journey began with the <strong>ALX Software Engineering</strong> program — a
+                PostgreSQL, and cloud technologies. My journey began with the <strong>ALX Software Engineering</strong> program a
                 transformative experience that shaped my technical foundation, problem-solving mindset, and collaborative leadership.
               </p>
               <p>
                 Since then, I’ve grown into a leadership role, currently serving as the <strong>General Team Manager</strong> and <strong>Backend Lead</strong> 
-                at <strong> UbuntuPortal</strong> — a startup focused on empowering African businesses through technology.
+                at <strong> UbuntuPortal</strong> a startup focused on empowering African businesses through technology.
                 Our current focus is building the <strong>UbuntuPortal MVP</strong> and its companion <strong>Logistics platform MVP</strong>,
                 designed to streamline B2B commerce and logistics operations across the continent.
               </p>
               <p>
                 My engineering philosophy revolves around clean code, thoughtful architecture, and real-world impact.
-                I believe software should do more than function — it should solve meaningful problems, create value,
+                I believe software should do more than function it should solve meaningful problems, create value,
                 and open doors for people and businesses to grow.
               </p>
               <p>
