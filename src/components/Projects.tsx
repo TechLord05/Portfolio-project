@@ -44,7 +44,7 @@ const Projects = () => {
     {
       title: 'Ubuntu Port Experience(UPE)',
       description:
-        'A secure RESTful API for seamless shipment management, real-time tracking, and optimized supply chain operations.',
+        'A comprehensive digital logistics and shipment management platform designed to streamline trade and supply chain operations across Africa. It connects Freight Forwarders, Clients (Importers/Exporters), Logistics Partners, and Admins in a seamless, real-time ecosystem, ensuring efficiency, transparency, and secure transactions.',
       tags: ['Python', 'Django', 'OAuth 2.0', 'PostgreSQL', 'Celery', 'RabbitMQ'],
       image: 'log.jpg',
       liveUrl: 'https://ubuntuport.com/',
