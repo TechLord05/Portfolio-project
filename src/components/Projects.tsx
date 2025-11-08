@@ -44,7 +44,7 @@ const Projects = () => {
     {
       title: 'Ubuntu Port Experience(UPE)',
       description:
-        'A comprehensive digital logistics and shipment management platform designed to streamline trade and supply chain operations across Africa. It connects Freight Forwarders, Clients (Importers/Exporters), Logistics Partners, and Admins in a seamless, real-time ecosystem, ensuring efficiency, transparency, and secure transactions.',
+        'A comprehensive digital logistics and shipment management platform designed to streamline trade and supply chain operations across Africa.',
       tags: ['Python', 'Django', 'OAuth 2.0', 'PostgreSQL', 'Celery', 'RabbitMQ'],
       image: 'log.jpg',
       liveUrl: 'https://ubuntuport.com/',
@@ -73,7 +73,7 @@ const Projects = () => {
     {
       title: 'Dockerized Blog API',
       description:
-        'A RESTful API built with Django REST Framework that allows users to create, read, update, and delete blog posts and comments. Features include user authentication, follower/following system, and efficient data handling for scalable blogging platforms. Perfect for developers looking to integrate blogging functionality into web or mobile applications.',
+        'A RESTful API built with Django REST Framework that allows users to create, read, update, and delete blog posts and comments',
       tags: ['Python', 'Django', 'DRF', 'PostgreSQL', 'Docker', 'JWT', 'redis', 'celery'],
       image: 'blog.png',
       githubUrl: 'https://github.com/TechLord05/Blog_API',
