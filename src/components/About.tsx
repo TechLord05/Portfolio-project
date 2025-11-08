@@ -66,7 +66,7 @@ const About = () => {
                 transformative experience that shaped my technical foundation, problem-solving mindset, and collaborative leadership.
               </p>
               <p>
-                Since then, I’ve grown into a leadership role, currently serving as the <strong>General Team Manager</strong> and <strong>Backend Lead</strong>
+                Since then, I’ve grown into a leadership role, currently serving as the <strong>General Team Manager</strong> and <strong>Backend Lead</strong> 
                 at <strong> UbuntuPortal</strong> — a startup focused on empowering African businesses through technology.
                 Our current focus is building the <strong>UbuntuPortal MVP</strong> and its companion <strong>Logistics platform MVP</strong>,
                 designed to streamline B2B commerce and logistics operations across the continent.
