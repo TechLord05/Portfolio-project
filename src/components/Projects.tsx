@@ -33,7 +33,7 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'B2B E-commerce Platform',
+      title: 'UbuntuPortal B2B E-commerce Platform',
       description:
         'A scalable B2B e-commerce platform with real-time inventory management and order processing.',
       tags: ['Django', 'PostgreSQL', 'Docker', 'Kubernetes', 'Redis', 'RabbitMQ', 'Celery'],
@@ -42,7 +42,7 @@ const Projects = () => {
       category: 'backend',
     },
     {
-      title: 'UbuntuPortal Logistics',
+      title: 'Ubuntu Port Experience(UPE)',
       description:
         'A secure RESTful API for seamless shipment management, real-time tracking, and optimized supply chain operations.',
       tags: ['Python', 'Django', 'OAuth 2.0', 'PostgreSQL', 'Celery', 'RabbitMQ'],
