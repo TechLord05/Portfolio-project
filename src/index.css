@@ -4,41 +4,9 @@
 @tailwind utilities;
 
 @layer base {
+  /* Dark is the only theme. The `dark` class stays on <html> so Tailwind's
+     `dark:` variants and shadcn's `.dark` chart selector still resolve. */
   :root {
-    color-scheme: light;
-
-    --background: 220 33% 98%;
-    --foreground: 222 47% 11%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
-
-    --primary: 180 65% 35%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 250 60% 50%;
-    --secondary-foreground: 222 47% 11%;
-
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
-
-    --accent: 180 65% 35%;
-    --accent-foreground: 222 47% 11%;
-
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 222 84% 5%;
-
-    --radius: 0.5rem;
-  }
-
-  .dark {
     color-scheme: dark;
 
     --background: 222 47% 11%;
@@ -69,6 +37,8 @@
     --border: 217 30% 24%;
     --input: 217 30% 24%;
     --ring: 213 27% 84%;
+
+    --radius: 0.5rem;
   }
 }
 

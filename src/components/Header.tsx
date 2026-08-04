@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Github, Linkedin, Mail } from "lucide-react";
-import ThemeToggle from "@/components/ThemeToggle";
 
 interface NavLink {
   name: string;
@@ -86,13 +85,11 @@ const Header = () => {
               >
                 <Mail size={20} />
               </a>
-              <ThemeToggle />
             </div>
           </nav>
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center gap-1">
-            <ThemeToggle />
             <Button
               variant="ghost"
               size="icon"
