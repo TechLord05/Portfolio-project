@@ -5,6 +5,8 @@
 
 @layer base {
   :root {
+    color-scheme: light;
+
     --background: 220 33% 98%;
     --foreground: 222 47% 11%;
 
@@ -37,13 +39,16 @@
   }
 
   .dark {
+    color-scheme: dark;
+
     --background: 222 47% 11%;
     --foreground: 210 40% 98%;
 
-    --card: 222 47% 11%;
+    /* Slightly lifted from the background so cards read as surfaces. */
+    --card: 222 44% 14%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 222 47% 11%;
+    --popover: 222 44% 14%;
     --popover-foreground: 210 40% 98%;
 
     --primary: 180 65% 50%;
@@ -61,8 +66,8 @@
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217 33% 18%;
-    --input: 217 33% 18%;
+    --border: 217 30% 24%;
+    --input: 217 30% 24%;
     --ring: 213 27% 84%;
   }
 }
@@ -100,10 +105,19 @@
 }
 
 .bg-grid-pattern {
-  background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.8) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.8) 1px, transparent 1px);
+  background-image:
+    linear-gradient(hsl(var(--foreground) / 0.7) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--foreground) / 0.7) 1px, transparent 1px);
   background-size: 20px 20px;
+}
+
+/* Respect users who ask for less motion. */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 @keyframes float {
